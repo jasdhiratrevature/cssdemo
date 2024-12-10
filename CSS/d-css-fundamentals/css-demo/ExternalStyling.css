@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+}
+
+th {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+td {
+    background-color: lightgray;
+    border: 1px dashed black;
+}
+
+//this is the same property and selector used in the internal
+// css to show it will be overriden
+p{
+    background-color: red
+}

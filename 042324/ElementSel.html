@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Selector Demo 01</title>
+   <style>
+    /*p{color: red; text-align: center;} */
+    #para1{color: blue;}
+    .myClass{background-color: aqua;}
+    /**{font-size: xx-large;}*/
+    [myAttribute~="someValue"]{background-color: chartreuse;}
+   </style>
+</head>
+<body>
+  <p class="myClass">This is Paragraph 01</p>
+  <p id="para1" class="myClass">This is Paragraph 02</p>  
+  <p class="myClass">This is Paragraph 03</p>
+  <h3 myAttribute="someValue">Attribute Selector</h3>
+  <p myAttribute="someValue 123">Para Attribute Selector</p>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+h1{
+    border: double crimson;
+    font-style: italic;
+    text-shadow: 2px 2px grey;
+   padding: 20px;
+   margin-bottom: 100px;
+}
